@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        .about {
+            padding: 50px 0;
+            background-color: #757e86ab;
+        }
+        .about img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #0d1a27;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="about text-center">
+        <div class="container">
+            <img src="foto azdana.jpeg" alt="Profile Picture"> <!-- Ganti link gambar di sini -->
+            <h2>About Me</h2>
+            <p>Hello! My name is Azdana Hasfi Nabilah. I am an active student
+                5th semester of UPN Veteran Jawa Timur, Faculty of Computer Science. Currently I am implementing the independent campus program, namely independent study at Celerates Indonesia, web developer and UI UX designer program.
+                During college, Azdana did a project
+                research on artificial intelligence applications, AI. I'm really interested
+                with UI/UX design and website development.</p>
+        </div>
+    </section>
+
+   <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio text-center">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4 portfolio-item">
+                <img src="canting.PNG" class="img-fluid" alt="Project 1">
+                <h3>Project 1: Canting Website</h3>
+                <p style="text-align: justify;">Canting is a website (capable of stunting) which contains information related to stunting and can monitor the development of children and pregnant women which focuses on the Mojokerto area.</p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4 portfolio-item">
+                <img src="sti.PNG" class="img-fluid" alt="Project 2">
+                <h3>Project 2: STICK HERO 4 GAME</h3>
+                <p style="text-align: justify;">Stick Hero is a simple game where the gameplay involves the player double-clicking the mouse to extend a stick to help the hero cross blocks, with the score increasing each time the stick is successfully used. If the hero falls, the game ends and must be restarted from the beginning. There are nine characters to choose from, and the game sound can be adjusted through an icon in the top left corner of the screen.</p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4 portfolio-item">
+                <img src="fig.PNG" class="img-fluid" alt="Project 3">
+                <h3>Project 3: UI/UX Prototype E-Commerce SCR</h3>
+                <p style="text-align: justify;">This is a UI/UX design concept for a secondhand goods e-commerce app. What sets it apart from other apps is the inclusion of two unique features: a barter option, allowing users to trade items based on mutual agreement, and an auction feature for bidding on items.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact text-center">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <!-- Contact Information -->
+        <div class="contact-info mb-4">
+            <p>
+                <span class="d-inline mx-3"><strong>Email:</strong> azzdanahasf@gmail.com</span>
+                <span class="d-inline mx-3"><strong>WhatsApp:</strong> +6285806361803</span>
+                <span class="d-inline mx-3"><strong>Instagram:</strong> <a href="https://www.instagram.com/azdanadza" target="_blank">@azdanadza</a></span>
+                <p>If you'd like to get in touch, feel free to contact me through the following platforms or drop a message below.</p>
+            </p>
+        </div>
+
+        <!-- Contact Form -->
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Azdana. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
